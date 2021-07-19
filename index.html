@@ -42,13 +42,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shoes</a>
+              <a class="nav-link" href="#shoes">Shoes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Backpack</a>
+              <a class="nav-link" href="#bagpack">Bagpack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Subscribe</a>
+              <a class="nav-link" href="#subscribe">Subscribe</a>
             </li>
           </ul>
         </div>
@@ -153,6 +153,7 @@
         </div>
       </section>
     </header>
+    <!-- MAIN -->
     <main>
       <!-- CATEGORY -->
       <section class="container my-5">
@@ -209,7 +210,7 @@
       </section>
 
       <!-- SHOES -->
-      <section class="container my-5">
+      <section class="container my-5" id="shoes">
         <h2 class="mb-3">Shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -275,7 +276,7 @@
       </section>
 
       <!-- Bagpack -->
-      <section class="container my-5">
+      <section class="container my-5" id="bagpack">
         <h2 class="mb-3">Bagpack</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -327,8 +328,35 @@
           </div>
         </div>
       </section>
+
+      <!-- SUBSCRIBE -->
+      <section
+        style="height: 300px"
+        class="
+          my-5
+          bg-info
+          container
+          d-flex
+          align-items-center
+          justify-content-center
+          rounded-3
+        "
+        id="subscribe"
+      >
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales, specials and more</p>
+          <input type="text" placeholder="enter your email" />
+          <button class="btn btn-warning">Submit</button>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <!-- FOOTER -->
+    <footer class="text-center">
+      <small
+        >©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small
+      >
+    </footer>
 
     <!-- BOOTSTRAP SCRIPT -->
     <script
