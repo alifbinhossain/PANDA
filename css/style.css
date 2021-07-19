@@ -1,17 +1,24 @@
 .panda-bg-info {
   background-color: #fceae8;
-  border-radius: 20px !important;
+  border-radius: 0.625rem !important;
+  overflow: hidden !important;
 }
 .panda-carousel-item {
-  padding: 20px 40px;
+  padding: 1.25rem 2.5rem;
+}
+.panda-carousel-item img {
+  width: 100%;
+}
+.panda-carousel {
+  backface-visibility: hidden !important;
 }
 .panda-btn-primary {
-  padding: 10px 25px;
+  padding: 0.625rem 1.56rem;
   color: #fff;
   background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
   border: none;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 1.25rem;
 }
 .heading-price {
   color: #ff136f;
@@ -22,7 +29,7 @@
   font-size: 2.8rem;
 }
 .categories img {
-  width: 100px;
+  width: 6.25rem;
 }
 .bg-watch {
   background-color: #ffa500;
