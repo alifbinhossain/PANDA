@@ -1,5 +1,9 @@
 .panda-bg-info {
   background-color: #fceae8;
+  border-radius: 20px !important;
+}
+.panda-carousel-item {
+  padding: 20px 40px;
 }
 .panda-btn-primary {
   padding: 10px 25px;
